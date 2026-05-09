@@ -1,0 +1,65 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Build / producción
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Nodemon
+.nodemon
+
+# Cache
+.cache/
+
+# Archivos de npm
+package-lock.json
+
+# Certificados
+*.pem
+*.key
+*.crt
+
+# MongoDB local
+data/
+mongodb-data/
+
+# Docker
+docker-compose.override.yml
+
+# Tests
+.junit/
+
+# TypeScript
+*.tsbuildinfo
+
+# Archivos del sistema operativo
+Desktop.ini
